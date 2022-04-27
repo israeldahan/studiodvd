@@ -19,25 +19,25 @@ export default class Home extends React.Component {
         const postUrl = getPageUrl(post, { withPrefix: true });
 
         return (
-            <article key={index} className="post">
+            <article key={index} className="post" style={{backgroundImage: `url(${withPrefix(thumbImage)})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
                 <header className="post-header">
                     <h2 className="post-title">
                         <Link href={postUrl}>{title}</Link>
                     </h2>
-                    <div className="post-meta">
+                    {/* <div className="post-meta">
                         Published on <time className="published" dateTime={dateTimeAttr}>{formattedDate}</time>
-                    </div>
+                    </div> */}
                 </header>
-                {thumbImage && (
+                {/* {thumbImage && (
                     <Link className="post-thumbnail" href={postUrl}>
                         <img className="thumbnail" src={withPrefix(thumbImage)} alt={thumbImageAlt} />
                     </Link>
-                )}
-                {excerpt && (
+                )} */}
+                {/* {excerpt && (
                     <div className="post-content">
                         <p>{excerpt}</p>
                     </div>
-                )}
+                )} */}
                 {hasMoreLink && moreLinkText && (
                     <p className="read-more">
                         <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
@@ -62,7 +62,7 @@ export default class Home extends React.Component {
                 <Header config={config} page={page} image={headerImage} />
                 <div id="content" className="site-content">
                     <main id="main" className="site-main inner">
-                        <div className="post-feed">
+                        <div className="post-feed home">
                             {_.map(posts, (post, index) => this.renderPost(post, index, hasMoreLink, moreLinkText))}
                         </div>
                     </main>

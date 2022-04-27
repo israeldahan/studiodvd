@@ -42,6 +42,11 @@ layout: page
 
 The HTML &lt;h1&gt;–&lt;h6&gt; elements represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest.
 
+<img src="/images/style-guide.jpg"/>
+<img src="/images/2.jpg"/>
+<img src="/images/1.jpg"/>
+
+
 # This is an H1
 
 ## This is an H2

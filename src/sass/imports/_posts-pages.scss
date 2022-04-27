@@ -2,9 +2,16 @@
  * Posts and Pages
  */
 .post {
-    margin-bottom: 2.5em;
+    // margin-bottom: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // box-shadow: inset rgba(255 ,255 ,255 , 72%) 0px 97px 38px 0px;
 }
 
+.post-full {
+    padding: 2.5em 4vw 1.66667em;
+}
 .post-header {
     margin-bottom: 1.66667em;
 }
@@ -14,10 +21,16 @@
 
     a {
         border: 0;
-        color: inherit;
+        // text-shadow: 1px 3px 3px white;
+        color: #f05b6b;
+        background: #fff;
+        padding: 7px 25px 10px 13px;
 
         &:hover {
-            color: _palette(primary);
+            color: white;
+            // text-shadow: 1px 3px 3px rgb(73, 73, 73);
+            background: #f05b6b;
+            padding: 7px 25px 10px 13px;
         }
     }
 }
@@ -46,7 +59,10 @@
 
 .post-content {
     max-width: 750px;
-
+    img {
+        margin: 10px 0 ;
+        width: 100vw;
+    }
     iframe[src*="vimeo.com"],
     iframe[src*="youtube.com"] {
         display: block;
@@ -58,7 +74,11 @@
         }
     }
 }
-
+.read-more {
+    margin: 10px;
+    align-self: flex-end;
+    background-color: white;
+}
 .read-more-link {
     color: _palette(secondary);
     display: inline-block;
@@ -66,6 +86,7 @@
     font-weight: bold;
     padding: 0.3em 24px 0.3em 0;
     position: relative;
+    margin: 10px 20px 20px 20px;
 
     .icon-arrow-right {
         left: auto;
@@ -76,22 +97,42 @@
 }
 
 .post-feed {
+    padding: 2.5em 4vw 1.66667em;
+
+    &.home{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 25px;
+    }
     .post {
-        border-bottom: 1px dashed _palette(border);
-        padding-bottom: 0.83333em;
+        // border-bottom: 1px dashed _palette(border);
+        // padding-bottom: 0.83333em;
 
         &:last-child {
             border: 0;
             padding-bottom: 0;
-        }
+        }        
     }
+
+    // @media only screen and (min-width: 1091px) {
+    //     padding-left: 6vw;
+    //     padding-right: 6vw;
+    // }
+    
+    // @media only screen and (min-width: 1501px) {
+    //     padding-left: 130px;
+    //     padding-right: 130px;
+    // }
+
 
     .post-header,
     .post-thumbnail {
-        margin-bottom: 1.66667em;
+        margin-bottom: 400px;
+        padding: 23px 0 0 0 ;
     }
 
     .post-title {
+        margin: 10px 20px;
         font-size: 1.66667rem;
     }
 
@@ -102,7 +143,7 @@
 
 @media only screen and (min-width: 601px) {
     .post {
-        margin-bottom: 3.33333em;
+        // margin-bottom: 3.33333em;
     }
 
     .post-header {
@@ -111,7 +152,7 @@
 
     .post-feed {
         .post {
-            padding-bottom: 1.66667em;
+            // padding-bottom: 1.66667em;
         }
     }
 }
