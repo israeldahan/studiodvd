@@ -4,7 +4,7 @@
     "palette": "yellow",
     "header": {
         "title": "Fjord",
-        "tagline": "Design simple with shol",
+        "tagline": "Simple design with a soul",
         "logo_img": "images/logo-website-white2.png",
         "logo_img_alt": "DVD Logo",
         "background_img": "images/header-bg.jpg",
@@ -18,11 +18,6 @@
             {
                 "label": "About",
                 "url": "/about",
-                "style": "link"
-            },
-            {
-                "label": "Style Guide",
-                "url": "/style-guide",
                 "style": "link"
             },
             {
