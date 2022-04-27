@@ -1,9 +1,7 @@
 ---
 title: Bali baby - project
 excerpt: >-
-  Hiking is sometimes referred to as such. This specifically refers to difficult
-  walking through dense forest, undergrowth, or bushes, where forward progress
-  requires pushing vegetation aside.
+  Project to make logo to awosome customer. 
 date: '2019-04-09'
 thumb_img_path: images/bali/5921459.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
