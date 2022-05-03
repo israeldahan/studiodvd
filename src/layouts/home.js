@@ -20,10 +20,8 @@ export default class Home extends React.Component {
         const postUrl = getPageUrl(post, { withPrefix: true });
 
         return (
-// style={{backgroundImage: `url(${withPrefix(thumbImage)})`, backgroundSize: 'cover', backgroundPosition: 'center'}}
             <article key={index} className="post" >
                 {thumbImage && hasMoreLink && moreLinkText && (
-                
                     <Link className="post-thumbnail" href={postUrl}>
                         <header className="post-header">
                             <h2 className="post-title">
@@ -38,12 +36,6 @@ export default class Home extends React.Component {
                     </Link>
                     
                 )}
-                {/* {excerpt && (
-                    <div className="post-content">
-                        <p>{excerpt}</p>
-                    </div>
-                )} */}
-                
             </article>
         );
     }
