@@ -21,17 +21,17 @@
 
     a {
         border: 0;
-        // text-shadow: 1px 3px 3px white;
-        color: #f05b6b;
-        background: #fff;
+        text-shadow: 1px 3px 3px white;
+        color: _palette(bg-hover);
+        // background: #fff;
         padding: 7px 25px 10px 13px;
 
-        &:hover {
-            color: white;
-            // text-shadow: 1px 3px 3px rgb(73, 73, 73);
-            background: #f05b6b;
-            padding: 7px 25px 10px 13px;
-        }
+        // &:hover {
+        //     color: white;
+        //     text-shadow: 1px 3px 3px rgb(73, 73, 73);
+        //     background: _palette(bg-hover);
+        //     padding: 7px 25px 10px 13px;
+        // }
     }
 }
 
@@ -127,13 +127,14 @@
 
     .post-header,
     .post-thumbnail {
-        margin-bottom: 400px;
-        padding: 23px 0 0 0 ;
+        margin: 0 0 400px 0 ;
+        background-color: #ffffffa3;
     }
 
     .post-title {
-        margin: 10px 20px;
+        padding: 10px 20px;
         font-size: 1.66667rem;
+        color: black;
     }
 
     .post-meta {
