@@ -5,6 +5,7 @@ import moment from 'moment-strftime';
 import { Layout } from '../components/index';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Image from 'next/image'
 import { getPageUrl, Link, withPrefix } from '../utils';
 
 export default class Home extends React.Component {
@@ -19,30 +20,30 @@ export default class Home extends React.Component {
         const postUrl = getPageUrl(post, { withPrefix: true });
 
         return (
-            <article key={index} className="post" style={{backgroundImage: `url(${withPrefix(thumbImage)})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
-                <header className="post-header">
-                    <h2 className="post-title">
-                        <Link href={postUrl}>{title}</Link>
-                    </h2>
-                    {/* <div className="post-meta">
-                        Published on <time className="published" dateTime={dateTimeAttr}>{formattedDate}</time>
-                    </div> */}
-                </header>
-                {/* {thumbImage && (
+// style={{backgroundImage: `url(${withPrefix(thumbImage)})`, backgroundSize: 'cover', backgroundPosition: 'center'}}
+            <article key={index} className="post" >
+                {thumbImage && hasMoreLink && moreLinkText && (
+                
                     <Link className="post-thumbnail" href={postUrl}>
+                        <header className="post-header">
+                            <h2 className="post-title">
+                                <Link href={postUrl}>{title}</Link>
+                            </h2>
+                        </header>
+                        <p className="read-more">
+                            <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
+                        </p>
                         <img className="thumbnail" src={withPrefix(thumbImage)} alt={thumbImageAlt} />
+
                     </Link>
-                )} */}
+                    
+                )}
                 {/* {excerpt && (
                     <div className="post-content">
                         <p>{excerpt}</p>
                     </div>
                 )} */}
-                {hasMoreLink && moreLinkText && (
-                    <p className="read-more">
-                        <Link className="read-more-link" href={postUrl}>{moreLinkText} <span className="icon-arrow-right" aria-hidden="true" /></Link>
-                    </p>
-                )}
+                
             </article>
         );
     }
