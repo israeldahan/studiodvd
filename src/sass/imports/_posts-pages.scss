@@ -14,10 +14,16 @@
 }
 .post-header {
     margin-bottom: 1.66667em;
-    position: absolute;
-    width: 100%;
 }
 
+.post-thumbnail{
+    .post-header {
+        margin-bottom: 1.66667em;
+        position: absolute;
+        width: 100%;
+    }
+       
+}
 .post-title {
     margin-bottom: 0.66667rem;
 
