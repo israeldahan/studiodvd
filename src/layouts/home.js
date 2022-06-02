@@ -5,7 +5,7 @@ import moment from 'moment-strftime';
 import { Layout } from '../components/index';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Image from 'next/image'
+// import Image from 'next/image'
 import { getPageUrl, Link, withPrefix } from '../utils';
 
 export default class Home extends React.Component {
