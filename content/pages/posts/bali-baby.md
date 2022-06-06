@@ -3,9 +3,9 @@ title: Bali baby - project
 excerpt: >-
   Project to make logo to awosome customer. 
 date: '2019-04-09'
-thumb_img_path: images/bali/5921459.jpg
+thumb_img_path: images/bali/Artboard1@2x-100.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
-content_img_path: images/bali/5921459.jpg
+content_img_path: images/bali/Artboard1@2x-100.jpg
 seo:
   title: Bali baby - project
   description: >-
@@ -23,7 +23,7 @@ seo:
         Bali baby - project logo and banner to website
       keyName: property
     - name: 'og:image'
-      value: images/bali/5921459.jpg
+      value: images/bali/Artboard1@2x-100.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -34,12 +34,14 @@ seo:
       value: >-
         Bali baby - project logo and banner to website.
     - name: 'twitter:image'
-      value: images/bali/5921459.jpg
+      value: images/bali/Artboard1@2x-100.jpg
       relativeUrl: true
 layout: post
 ---
 
-![Hiking](/images/bali/5921459.jpg)
-![Hiking](/images/bali/web1.png)
-![Hiking](/images/bali/web2.png)
-![Hiking](/images/bali/web3.png)
+![Hiking](/images/bali/Artboard1@2x-100.jpg)
+![Hiking](/images/bali/Artboard2@2x-100.jpg)
+![Hiking](/images/bali/Artboard3@2x-100.jpg)
+![Hiking](/images/bali/Artboard5@2x-100.jpg)
+![Hiking](/images/bali/Artboard6@2x-100.jpg)
+

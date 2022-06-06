@@ -10,9 +10,9 @@ excerpt: >-
   buildings see the use of tatami mats and sliding doors that break down the
   distinction between rooms and indoor and outdoor space.
 date: '2020-01-11'
-thumb_img_path: images/ST/logo_mokcup.jpg
+thumb_img_path: images/ST/2x/Artboard1.jpg
 thumb_img_alt: ST Hair Straightning
-content_img_path: images/ST/logo_mokcup.jpg
+content_img_path: images/ST/2x/Artboard1.jpg
 seo:
   title: ST Hair Straightning
   description: >-
@@ -31,7 +31,7 @@ seo:
         sanctuaries.
       keyName: property
     - name: 'og:image'
-      value: images/ST/logo_mokcup.jpg
+      value: images/ST/2x/Artboard1.jpg
       keyName: property
       relativeUrl: true 
     - name: 'twitter:card'
@@ -43,11 +43,11 @@ seo:
         Apparently, Japan is covered in magical and irresistibly cute animal
         sanctuaries.
     - name: 'twitter:image'
-      value: images/ST/logo_mokcup.jpg
+      value: images/ST/2x/Artboard1.jpg
       relativeUrl: true
 layout: post
 ---
-![Hiking](/images/ST/cream_mockup.jpg)
-![Hiking](/images/ST/logo_mokcup.jpg)
-![Hiking](/images/ST/mockup_cup.jpg)
-![Hiking](/images/ST/mokcup_chani.jpg)
+![Hiking](/images/ST/2x/Artboard1.jpg)
+![Hiking](/images/ST/2x/Artboard2.jpg)
+![Hiking](/images/ST/2x/Artboard3.jpg)
+![Hiking](/images/ST/2x/Artboard4.jpg)

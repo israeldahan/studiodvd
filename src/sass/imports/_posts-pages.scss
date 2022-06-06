@@ -113,7 +113,7 @@
 
     &.home{
         display: grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto auto;
         gap: 25px;
     }
     .post {

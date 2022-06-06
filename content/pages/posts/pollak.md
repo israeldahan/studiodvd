@@ -3,9 +3,9 @@ title: Pollak - project
 excerpt: >-
   Project to make logo to awosome customer. 
 date: '2019-04-09'
-thumb_img_path: images/polak/arteffis-book-mockup_300122.jpg
+thumb_img_path: images/pollak/pollak1.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
-content_img_path: images/polak/arteffis-book-mockup_300122.jpg
+content_img_path: images/pollak/pollak1.jpg
 seo:
   title: Pollak - project
   description: >-
@@ -23,7 +23,7 @@ seo:
         Pollak - project logo and banner to website
       keyName: property
     - name: 'og:image'
-      value: images/polak/arteffis-book-mockup_300122.jpg
+      value: images/pollak/pollak1.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -34,10 +34,12 @@ seo:
       value: >-
         Pollak - project logo and banner to website.
     - name: 'twitter:image'
-      value: images/polak/arteffis-book-mockup_300122.jpg
+      value: images/pollak/pollak1.jpg
       relativeUrl: true
 layout: post
 ---
 
-![Hiking](/images/polak/arteffis-book-mockup_300122.jpg)
-![Hiking](/images/polak/Brochure_Mockup_spring2021.jpg)
+![Hiking](/images/pollak/pollak1.jpg)
+![Hiking](/images/pollak/pollak2.jpg)
+![Hiking](/images/pollak/pollak3.jpg)
+![Hiking](/images/pollak/pollak4.jpg)
