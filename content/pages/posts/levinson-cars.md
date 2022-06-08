@@ -2,7 +2,7 @@
 title: Levinson cars
 subtitle: >-
 excerpt: >-
-date: '2019-01-07'
+date: '2019-04-09'
 thumb_img_path: images/levinson/PGFB3F1.jpg
 thumb_img_alt: A red fox sitting on a meadow
 content_img_path: images/levinson/PGFB3F1.jpg

@@ -1,13 +1,13 @@
 ---
-title: Pollak - project
+title: Pollak 
 excerpt: >-
   Project to make logo to awosome customer. 
-date: '2020-01-08'
+date: '2019-04-10'
 thumb_img_path: images/pollak/pollak1.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
 content_img_path: images/pollak/pollak1.jpg
 seo:
-  title: Pollak - project
+  title: Pollak
   description: >-
     Hiking refers to difficult walking through dense forest, undergrowth, or
     bushes.

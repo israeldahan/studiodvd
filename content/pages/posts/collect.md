@@ -2,7 +2,7 @@
 title: off topic 
 excerpt: >-
   Project to make logo to awosome customer. 
-date: '2019-04-09'
+date: '2019-04-08'
 thumb_img_path: images/off_topic/Flyer_mockup_meitav.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
 content_img_path: images/bali/Flyer_mockup_meitav.jpg
