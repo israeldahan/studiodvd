@@ -31,12 +31,12 @@ seo:
 layout: page
 ---
 
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+**Debi Dahan** is a Art Designer. my career in Art Design started 16 years ago. I studied at Lomda Design Graphic Course. I studied design theory and worked at Shichpulit in Elad where I worked with clients and prepared the print materials.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+Later, I moved to Tiberias, where I founded the news paper for the orthodox community in a weekly publication. I'm responsible for all design work, from preparing ads and content to typesetting.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+My studio, which I called 'studio dvd', was used by a private customer. I have worked on the child's book, ads, brochure, logo, branding, and printed materials.
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+Among my clients are Berman Halpert (Tarya"g), Devora Benedict, Benedict Nadlin, Shilat Daniel, etc. 
 
 *Thank You for reading!*

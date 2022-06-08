@@ -2,7 +2,7 @@
 title: Primary
 excerpt: >-
   Project to make logo to awosome customer. 
-date: '2019-04-09'
+date: '2020-01-09'
 thumb_img_path: images/primary/Artboard1.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river
 content_img_path: images/primary/Artboard1.jpg

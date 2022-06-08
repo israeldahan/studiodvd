@@ -1,7 +1,7 @@
 ---
 title: AFA Dlakim
 excerpt: >-
-  Project to make logo to awosome customer. 
+  logo to AFA Dlakim. 
 date: '2019-04-09'
 thumb_img_path: images/afa/afa1.jpg
 thumb_img_alt: A man standing on a rock cliff overlooking a river

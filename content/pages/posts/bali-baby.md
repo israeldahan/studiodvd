@@ -1,16 +1,15 @@
 ---
-title: Bali baby - project
+title: Bali baby 
 excerpt: >-
   Project to make logo to awosome customer. 
-date: '2019-04-09'
+date: '2020-04-09'
 thumb_img_path: images/bali/Artboard1@2x-100.jpg
-thumb_img_alt: A man standing on a rock cliff overlooking a river
+thumb_img_alt: 
 content_img_path: images/bali/Artboard1@2x-100.jpg
 seo:
-  title: Bali baby - project
+  title: Bali baby 
   description: >-
-    Hiking refers to difficult walking through dense forest, undergrowth, or
-    bushes.
+    .
   extra:
     - name: 'og:type'
       value: article
